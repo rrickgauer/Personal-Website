@@ -1,5 +1,5 @@
 .section-border-top {
-   border-top-style: solid;
+   border-bottom-style: solid;
 }
 
 img.home-img-size {
@@ -56,6 +56,19 @@ h1 {
    line-height: 1.15;
 }
 
+#resume h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#resume .card-header {
+    background-color: #dfe2db;
+}
+
+#resume li {
+    padding: 5px;
+}
+
 #resume, #page-top, #contact {
    background-color: #ffff80;
 }
@@ -83,5 +96,8 @@ h1 {
 .connect-icons ion-icon {
     width: 32px;
     height: 32px;
+}
 
+.card {
+    margin: 10px;
 }
