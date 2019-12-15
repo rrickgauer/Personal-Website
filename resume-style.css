@@ -16,8 +16,12 @@ img.home-img-size {
 }
 
 #page-top {
-   padding-top: 75px;
+   padding-top: 75px !important;
    line-height: 1.15;
+}
+
+#page-top p {
+    padding-left: 50px;
 }
 
 body {
@@ -26,8 +30,8 @@ body {
 }
 
 section {
-   padding-bottom: 50px;
-   padding-top: 10px;
+   padding-bottom: 50px !important;
+   padding-top: 30px !important;
 }
 
 .custom-font {
@@ -63,6 +67,10 @@ h1 {
 #icon-list img {
    width: 32;
    height: 32;
+}
+
+#proficiencies h2 {
+    padding-top: 25px;
 }
 
 
