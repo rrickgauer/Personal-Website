@@ -64,19 +64,24 @@ h1 {
    padding-bottom: 100px;
 }
 
-#icon-list img {
-   width: 32;
-   height: 32;
-}
+
 
 #proficiencies h2 {
     padding-top: 25px;
 }
 
-
-
 #top-pic {
    display: block;
    margin-left: auto;
    margin-right: auto
+}
+
+.selected {
+    background-color: grey;
+}
+
+.connect-icons ion-icon {
+    width: 32px;
+    height: 32px;
+
 }

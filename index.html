@@ -11,6 +11,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <!-- personal style sheet -->
 	<link rel="stylesheet" type="text/css" href="resume-style.css">
 
 	<!-- custom fonts -->
@@ -35,7 +36,7 @@
 				<!-- Links -->
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="nav navbar-nav ">
-						<li class="nav-item"><a href="#page-top" class="nav-link">Ryan Rickgauer</a></li>
+						<li class="nav-item"><a href="#page-top" class="nav-link selected">Ryan Rickgauer</a></li>
 						<li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
 						<li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
 						<li class="nav-item"><a href="#proficiencies" class="nav-link">Proficiencies</a></li>
@@ -244,33 +245,34 @@
 
 				<div class="col-sm-12 col-md-6 text-center">
 					<h1>Connect</h1>
-					<ul class="list-inline">
-
+					<ul class="list-inline connect-icons">
+                        <!-- github -->
 						<li class="list-inline-item">
 							<a href="https://github.com/rrickgauer" target="_blank">
-								<img src="img\icons\github.svg" width="32" height="32">
+								<ion-icon name="logo-github"></ion-icon>
 							</a>
 						</li>
 
+                        <!-- twitter -->
 						<li class="list-inline-item">
 							<a href="https://twitter.com/rrickgauer" target="_blank">
-								<img src="img\icons\twitter.svg" width="32" height="32">
+								<ion-icon name="logo-twitter"></ion-icon>
 							</a>
 						</li>
 
+                        <!-- facebook -->
 						<li class="list-inline-item">
 							<a href="https://www.facebook.com/ryan.rickgauer.5" target="_blank">
-								<img src="img\icons\facebook.svg" width="32" height="32">
+								<ion-icon name="logo-facebook"></ion-icon>
 							</a>
 						</li>
 
+                        <!-- instagram -->
 						<li class="list-inline-item">
 							<a href="https://www.instagram.com/rrickgauer/" target="_blank">
-								<img src="img\icons\instagram.svg" width="32" height="32">
+								<ion-icon name="logo-instagram"></ion-icon>
 							</a>
 						</li>
-
-
 					</ul>
 				</div>
 			</div>
@@ -278,48 +280,35 @@
 	</section>
 
 	<div id="triangle-video">
-
 		<div class="modal fade" id="triangle-video-modal" tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
-
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
 					</div>
-
 					<div class="modal-body">
 						<video width="100%" height="100%" controls>
 							<source src="videos/triangle-screen-record.mp4" type="video/mp4">
-
 						</video>
 					</div>
 
 				</div>
 			</div>
 		</div>
-
-
-
-
 	</div>
 
-
-
 	<script>
+		$(document).ready(function() {
+			// sets the selected navbar item to selected
+			$(".nav-link").on('click', function() {
+				$(".nav-link").removeClass("selected");
+				$(this).addClass("selected");
+			});
+		});
+	</script>
 
-    $(document).ready(function() {
-
-
-
-
-
-    });
-
-
-
-    </script>
 </body>
 
 </html>
