@@ -93,6 +93,10 @@ h1 {
     background-color: grey;
 }
 
+.nav-item:hover {
+    background-color: grey;
+}
+
 .connect-icons ion-icon {
     width: 32px;
     height: 32px;
