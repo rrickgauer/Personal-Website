@@ -105,3 +105,43 @@ h1 {
 .card {
     margin: 10px;
 }
+
+.modal-header h5, span {
+    color: white;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.modal-footer ion-icon {
+    width: 32px;
+    height: 32px;
+}
+
+#proficiencies i {
+    font-size: 100px;
+}
+
+#proficiencies .card {
+    padding: 0;
+    margin: 20px;
+    background-color: #dfe2db;
+    border: none;
+}
+
+/* #proficiencies .card:hover {
+    transform: scale(1.25);
+    background-color: white;
+}
+
+#proficiencies .card-body:hover, .card-footer:hover {
+    background-color: inherit;
+} */
+
+#proficiencies .card-body, .card-footer {
+    text-align: center;
+    background-color: inherit;
+    /* padding: 5px; */
+    /* margin: 0; */
+}
