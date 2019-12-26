@@ -213,4 +213,44 @@ span {
   outline: 0;
 }
 
+.dates-worked h3 {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 0;
+  }
+
+  .card-header {
+    padding: 10px;
+  }
+
+  .card-header h3 {
+    font-size: 20px;
+  }
+
+  .card-header h5 {
+    font-size: 16px;
+  }
+
+  .card-header h3,
+  .card-header i,
+  .card-header h5 {
+    margin-bottom: 5px;
+  }
+
+  .dates-worked h3 {
+    float: left;
+  }
+
+  ul {
+    padding-left: 27px;
+  }
+
+  .sub-list {
+    padding-left: 15px;
+  }
+}
+
 /* eof */
