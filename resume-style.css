@@ -206,6 +206,11 @@ span {
 
 .collapse-box {
   color: white;
+  font-size: 32px;
+}
+
+.navbar-toggler:focus {
+  outline: 0;
 }
 
 /* eof */
