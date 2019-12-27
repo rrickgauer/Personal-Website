@@ -228,6 +228,11 @@ span {
   vertical-align: bottom;
 }
 
+#contact li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
 @media (max-width: 768px) {
   .card-body {
     padding: 0;
