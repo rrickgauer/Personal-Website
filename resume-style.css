@@ -217,13 +217,13 @@ span {
   float: right;
 }
 
+#portfolio .card-body {}
+
 #portfolio .card-footer {
   border: none;
   text-align: left;
-  padding-top: 20px;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
+  padding: 20px;
+  vertical-align: bottom;
 }
 
 @media (max-width: 768px) {
