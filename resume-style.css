@@ -217,6 +217,10 @@ span {
   float: right;
 }
 
+#portfolio .card-deck {
+  margin-top: 20px;
+}
+
 #portfolio .card-footer {
   border: none;
   text-align: left;
