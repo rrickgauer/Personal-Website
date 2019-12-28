@@ -244,6 +244,12 @@ span {
   padding-left: 10px;
 }
 
+#dictionary-video .modal-body video {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
 @media (max-width: 768px) {
   .card-body {
     padding: 0;
