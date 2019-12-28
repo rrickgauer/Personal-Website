@@ -106,13 +106,24 @@ h1 {
   margin: 10px;
 }
 
-.modal-header h5,
-span {
-  color: white;
+.modal-header h5 {
+  color: black;
+}
+
+.modal-header {
+  background-color: #dfe2db;
+}
+
+.modal-body {
+  background-color: white;
+  /* padding: 0;
+  margin: 0; */
 }
 
 .modal-footer {
   justify-content: center;
+  /* background-color: #dfe2db; */
+  background-color: white;
 }
 
 .modal-footer ion-icon {
