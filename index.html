@@ -4,51 +4,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
   <!-- custom fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet" />
-
   <!-- ion icons -->
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
   <!-- devicon icons -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
-
   <!-- personal style sheet -->
   <link rel="stylesheet" type="text/css" href="resume-style.css" />
-
   <!-- type it -->
   <script src="js/typeit.min.js"></script>
-
   <!-- boxicons -->
   <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.4/css/boxicons.min.css' rel='stylesheet' />
-
   <!-- console font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet" />
-
   <!-- hamburger -->
   <link href="hamburgers.css" rel="stylesheet" />
-
   <title>Ryan Rickgauer</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50" class="custom-font">
-
   <!--Navbar-->
   <div id="navbar-section" class="bg-dark fixed-top">
     <div class="container bg-dark " id="mainNav">
       <nav class="navbar bg-dark  navbar-toggleable-md navbar-expand-md ">
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i class='bx bx-menu collapse-box'></i>
         </button>
-
         <!-- Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav navbar-nav ">
@@ -63,24 +50,18 @@
       </nav>
     </div>
   </div>
-
   <!-- about me -->
   <section id="page-top">
     <div class="container">
       <div class="row">
-
         <div class="col-sm-12 col-md-12 col-lg-5">
           <img src="img/profile-pic.jpg" class="rounded-circle" width="350" height="350" id="top-pic">
           <!-- <h1 class="text-center"></h1> -->
           <h1 class="text-center">Ryan Rickgauer</h1>
           <h4 class="text-center">Software Developer</h4>
-
         </div>
-
         <div class="col-sm-12 col-md-12 col-lg-7 console" id="console">
-
           <div class="card">
-
             <div class="card-header">
               <ul class="console-buttons">
                 <li><i class='bx bxs-circle console-button-red'></i></li>
@@ -88,7 +69,6 @@
                 <li><i class='bx bxs-circle console-button-green'></i></li>
               </ul>
             </div>
-
             <div class="card-body bg-purple">
               <ul class="console-list">
                 <li class="console-input"><i class='bx bx-chevron-right'></i><span id="currentLocation-input"> Ryan.currentLocation</span></li>
@@ -102,30 +82,23 @@
                 <li class="console-input"><i class='bx bx-chevron-right'></i><span id="favoriteLanguages-input"> Ryan.skills</span></li>
                 <li class="console-output"><span id="favoriteLanguages-output">["Java", "C++", "SQL", "PHP", "Python"]</span></li>
                 <li class="console-input"><i class='bx bx-chevron-right'></i><span id="blank-input"></span></li>
-
                 <script>
                   new TypeIt('#blank-input', {
-                      strings: [],
-                      cursorChar: '|'
-                    })
-                    .type('')
-                    .go();
+                    strings: [],
+                    cursorChar: '|'
+                  }).type('').go();
                 </script>
               </ul>
-
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
-
   <!-- proficiencies -->
   <section id="proficiencies">
     <div class="container">
       <h1 class="text-center">Proficiencies</h1>
-
       <!-- row 1 -->
       <div class="card-deck">
         <!-- c++ -->
@@ -137,7 +110,6 @@
             <p>C++</p>
           </div>
         </div>
-
         <!-- java -->
         <div class="card">
           <div class="card-body">
@@ -147,7 +119,6 @@
             <p>Java</p>
           </div>
         </div>
-
         <!-- mysql -->
         <div class="card">
           <div class="card-body">
@@ -157,7 +128,6 @@
             <p>MySQL</p>
           </div>
         </div>
-
         <!-- cobol -->
         <div class="card">
           <div class="card-body">
@@ -168,7 +138,6 @@
           </div>
         </div>
       </div>
-
       <!-- row 2 -->
       <div class="card-deck">
         <!-- html -->
@@ -180,7 +149,6 @@
             <p>HTML</p>
           </div>
         </div>
-
         <!-- css -->
         <div class="card">
           <div class="card-body">
@@ -190,7 +158,6 @@
             <p>CSS</p>
           </div>
         </div>
-
         <!-- javascript -->
         <div class="card">
           <div class="card-body">
@@ -200,7 +167,6 @@
             <p>Javascript</p>
           </div>
         </div>
-
         <!-- php -->
         <div class="card">
           <div class="card-body">
@@ -211,7 +177,6 @@
           </div>
         </div>
       </div>
-
       <!-- row 3 -->
       <div class="card-deck">
         <!-- python -->
@@ -223,7 +188,6 @@
             <p>Python</p>
           </div>
         </div>
-
         <!-- git -->
         <div class="card">
           <div class="card-body">
@@ -233,7 +197,6 @@
             <p>Git</p>
           </div>
         </div>
-
         <!-- assembly -->
         <div class="card">
           <div class="card-body">
@@ -243,7 +206,6 @@
             <p>Assembly</p>
           </div>
         </div>
-
         <!-- bootstrap -->
         <div class="card">
           <div class="card-body">
@@ -255,19 +217,14 @@
         </div>
       </div>
     </div>
-
-
   </section>
-
   <!-- resume -->
   <section id="resume">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-lg-12">
           <h1 class="text-center">Resume</h1>
-
           <h2 class="section-border-top">Professional Experience</h2>
-
           <div class="card">
             <div class="card-header">
               <div class="row">
@@ -280,7 +237,6 @@
               </div>
               <h5 class="job-title">Development Operations</h5>
             </div>
-
             <div class="card-body">
               <ul>
                 <li>Creating and analyzing data with "Mapping Business Online" software</li>
@@ -295,7 +251,6 @@
               </ul>
             </div>
           </div>
-
           <!-- City of Crystal Lake -->
           <div class="card">
             <div class="card-header">
@@ -309,22 +264,17 @@
               </div>
               <h5 class="job-title">Labor</h5>
             </div>
-
-
             <div class="card-body">
               <ul>
                 <li>Assisted in the maintenance and repair of the city’s infrastructure, including streets, parks, public properties, and water treatment facility</li>
               </ul>
             </div>
           </div>
-
           <br>
           <p>References available upon request.</p>
-
           <!-- Education -->
           <h2 class="section-border-top">Education</h2>
           <div class="card">
-
             <div class="card-header">
               <div class="row">
                 <div class="col-md-6">
@@ -336,7 +286,6 @@
               </div>
               <h5 class="job-title">DeKalb, IL</h5>
             </div>
-
             <div class="card-body">
               <ul>
                 <li>Bachelor of Science, Computer Science</li>
@@ -347,20 +296,15 @@
               </ul>
             </div>
           </div>
-
           <p><a href="resume.pdf" target="_blank">Download</a> a printable version.</p>
-
         </div>
       </div>
     </div>
   </section>
-
   <!-- portfolio -->
   <section id="portfolio">
-
     <div class="container">
       <h1 class="text-center">Portfolio</h1>
-
       <div class="card-deck">
         <!-- Calendar -->
         <div class="card">
@@ -374,11 +318,10 @@
             <span class="badge badge-secondary">Bootstrap</span>
           </div>
           <div class="card-footer">
-            <a href="https://www.ryanrickgauer.com/calendar/calendar-list.php" class="btn btn-primary" target="_blank">Demo</a>
+            <a href="https://www.ryanrickgauer.com/calendar/home.php" class="btn btn-primary" target="_blank">Demo</a>
             <a href="https://github.com/rrickgauer/Calendar" class="btn btn-primary" target="_blank"> View source</a>
           </div>
         </div>
-
         <!-- data sort -->
         <div class="card">
           <div class="card-body">
@@ -391,7 +334,6 @@
             <a href="https://github.com/rrickgauer/NIU-Undergrad/tree/master/CSCI-470/Assignment%205" class="btn btn-primary" target="_blank">View source</a>
           </div>
         </div>
-
         <!-- binray integers -->
         <div class="card">
           <div class="card-body">
@@ -405,7 +347,6 @@
           </div>
         </div>
       </div>
-
       <div class="card-deck">
         <!-- investment data processor -->
         <div class="card">
@@ -420,7 +361,6 @@
             <a href="https://github.com/rrickgauer/NIU-Undergrad/tree/master/CSCI-465/Assignment-8" class="btn btn-primary" target="_blank">View source</a>
           </div>
         </div>
-
         <!-- Zipcodes -->
         <div class="card">
           <div class="card-body">
@@ -438,7 +378,6 @@
             ">View source</a>
           </div>
         </div>
-
         <!-- triangle -->
         <div class="card">
           <div class="card-body">
@@ -452,7 +391,6 @@
           </div>
         </div>
       </div>
-
       <div class="card-deck">
         <!-- binary search tree -->
         <div class="card">
@@ -466,7 +404,6 @@
             <a href="https://github.com/rrickgauer/NIU-Undergrad/tree/master/CSCI-340/p7" class="btn btn-primary" target="_blank">View source</a>
           </div>
         </div>
-
         <!-- Dictionary -->
         <div class="card">
           <div class="card-body">
@@ -480,7 +417,6 @@
             <a href="https://github.com/rrickgauer/Dictionary" class="btn btn-primary" target="_blank">View source</a>
           </div>
         </div>
-
         <!-- personal website -->
         <div class="card">
           <div class="card-body">
@@ -499,7 +435,6 @@
       </div>
     </div>
   </section>
-
   <!-- contact -->
   <section id="contact">
     <div class="container">
@@ -511,7 +446,6 @@
             <li><i class='bx bx-envelope'></i> rrickgauer1@gmail.com</li>
           </ul>
         </div>
-
         <div class="col-sm-12 col-md-6 text-center">
           <h1>Connect</h1>
           <ul class="list-inline connect-icons">
@@ -521,21 +455,18 @@
                 <ion-icon name="logo-github"></ion-icon>
               </a>
             </li>
-
             <!-- twitter -->
             <li class="list-inline-item">
               <a href="https://twitter.com/rrickgauer" target="_blank">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
-
             <!-- facebook -->
             <li class="list-inline-item">
               <a href="https://www.facebook.com/ryan.rickgauer.5" target="_blank">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
-
             <!-- instagram -->
             <li class="list-inline-item">
               <a href="https://www.instagram.com/rrickgauer/" target="_blank">
@@ -547,7 +478,6 @@
       </div>
     </div>
   </section>
-
   <!-- triangle app modal -->
   <div id="triangle-video">
     <div class="modal fade" id="triangle-video-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -564,7 +494,6 @@
               <source src="videos/triangle-screen-record.mp4" type="video/mp4">
             </video>
           </div>
-
           <div class="modal-footer">
             <a href="https://github.com/rrickgauer/Triangle" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
@@ -574,7 +503,6 @@
       </div>
     </div>
   </div>
-
   <!-- dictionary modal -->
   <div id="dictionary-video">
     <div class="modal fade" id="dictionary-video-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -591,7 +519,6 @@
               <source src="videos/dictionary-screen-recording.mp4" type="video/mp4">
             </video>
           </div>
-
           <div class="modal-footer">
             <a href="https://github.com/rrickgauer/Dictionary" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
@@ -601,7 +528,6 @@
       </div>
     </div>
   </div>
-
   <!-- sort data modal -->
   <div id="sort-video">
     <div class="modal fade" id="sort-video-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -618,7 +544,6 @@
               <source src="videos/sort-screen-capture.mp4" type="video/mp4">
             </video>
           </div>
-
           <div class="modal-footer">
             <a href="https://github.com/rrickgauer/NIU-Undergrad/tree/master/CSCI-470/Assignment%205" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
@@ -628,7 +553,6 @@
       </div>
     </div>
   </div>
-
   <!-- binary search tree modal -->
   <div id="bst-video">
     <div class="modal fade" id="bst-video-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -643,7 +567,6 @@
           <div class="modal-body">
             <img src="img/bst-screen-shot.png" alt="Binary Search Tree results" />
           </div>
-
           <div class="modal-footer">
             <a href="https://github.com/rrickgauer/NIU-Undergrad/tree/master/CSCI-340/p7" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
@@ -653,19 +576,11 @@
       </div>
     </div>
   </div>
-
-
-
-
-
   <script>
     $(".nav-link").on('click', function() {
       $('#navbarNav').collapse('toggle');
-
     });
   </script>
-
-
 </body>
 
 </html>
