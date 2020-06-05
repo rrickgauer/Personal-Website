@@ -61,10 +61,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-#resume .card-header {
-  background-color: #dfe2db;
-}
-
 #resume li {
   padding: 5px;
 }
@@ -261,6 +257,28 @@ span {
   margin-right: auto;
   width: 50%;
 }
+
+
+.card-resume {
+  margin-bottom: 40px;
+}
+
+.card-resume .card-header {
+  background-color: #dfe2db;
+}
+
+.card-resume .card-footer a {
+  display: flex;
+  align-items: baseline;
+  /*text-align: center;*/
+}
+
+
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 @media (max-width: 768px) {
   .card-body {
