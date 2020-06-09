@@ -7,6 +7,10 @@ img.home-img-size {
   height: 50%;
 }
 
+.custom-font {
+  font-family: 'ABeeZee', sans-serif;
+}
+
 .nav.navbar-nav.navbar-right li {
   color: white;
 }
@@ -34,9 +38,7 @@ section {
   padding-top: 30px !important;
 }
 
-.custom-font {
-  font-family: 'Poppins', sans-serif !important;
-}
+
 
 h1 {
   font-family: 'Poppins', sans-serif !important;
@@ -258,6 +260,11 @@ span {
   width: 50%;
 }
 
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .card-resume {
   margin-bottom: 40px;
@@ -267,42 +274,17 @@ span {
   background-color: #dfe2db;
 }
 
-.card-resume .card-footer a {
-  display: flex;
-  align-items: baseline;
-  /*text-align: center;*/
+.card-resume .card-footer {
+  /*display: flex;
+  align-items: baseline;*/
 }
 
-
-.split {
-  display: flex;
-  justify-content: space-between;
+.card-resume .card-header .split {
+  flex-flow: row wrap;
 }
 
 
 @media (max-width: 768px) {
-  .card-body {
-    padding: 0;
-  }
-
-  .card-header {
-    padding: 10px;
-  }
-
-  .card-header h3 {
-    font-size: 20px;
-  }
-
-  .card-header h5 {
-    font-size: 16px;
-  }
-
-  .card-header h3,
-  .card-header i,
-  .card-header h5 {
-    margin-bottom: 5px;
-  }
-
   .dates-worked h3 {
     float: left;
   }
