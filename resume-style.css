@@ -31,14 +31,19 @@ img.home-img-size {
 body {
   font-size: 18px;
   background-color: #dfe2db;
+  /*background-color: #30e3ca;*/
+}
+
+#resume,
+#page-top,
+#contact {
+  background-color: #F0F0F0;
 }
 
 section {
   padding-bottom: 50px !important;
   padding-top: 30px !important;
 }
-
-
 
 h1 {
   font-family: 'Poppins', sans-serif !important;
@@ -67,11 +72,6 @@ h1 {
   padding: 5px;
 }
 
-#resume,
-#page-top,
-#contact {
-  background-color: #ffff80;
-}
 
 #contact {
   padding-bottom: 100px;
