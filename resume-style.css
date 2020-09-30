@@ -31,13 +31,12 @@ img.home-img-size {
 body {
   font-size: 18px;
   background-color: #dfe2db;
-  /*background-color: #30e3ca;*/
 }
 
 #resume,
 #page-top,
 #contact {
-  background-color: #F0F0F0;
+  background-color: #FFE156;
 }
 
 section {
@@ -268,6 +267,8 @@ span {
 
 .card-resume {
   margin-bottom: 40px;
+
+  /*color: black;*/
 }
 
 .card-resume .card-header {
