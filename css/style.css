@@ -8,7 +8,7 @@ img.home-img-size {
 }
 
 .custom-font {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: "ABeeZee", sans-serif;
 }
 
 .nav.navbar-nav.navbar-right li {
@@ -30,13 +30,12 @@ img.home-img-size {
 
 body {
   font-size: 18px;
-  background-color: #dfe2db;
 }
 
 #resume,
 #page-top,
 #contact {
-  background-color: #FFE156;
+  background-color: #dfe2db;
 }
 
 section {
@@ -45,7 +44,7 @@ section {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 700;
   padding-top: 30px;
 }
@@ -71,7 +70,6 @@ h1 {
   padding: 5px;
 }
 
-
 #contact {
   padding-bottom: 100px;
 }
@@ -83,7 +81,7 @@ h1 {
 #top-pic {
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 .selected {
@@ -108,46 +106,20 @@ h1 {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
 }
 
-.modal-header h5 {
-  color: black;
+.modal .modal-header {
+  background-color: #7d83ff;
+  color: white;
 }
-
-.modal-header {
-  background-color: #dfe2db;
+.modal .modal-header button {
+  color: white;
 }
-
-.modal-body {
-  background-color: white;
-  /* padding: 0;
-  margin: 0; */
-}
-
-.modal-footer {
+.modal .modal-footer {
   justify-content: center;
-  /* background-color: #dfe2db; */
   background-color: white;
 }
-
-.modal-footer ion-icon {
+.modal .modal-footer ion-icon {
   width: 32px;
   height: 32px;
-}
-
-#proficiencies i {
-  font-size: 100px;
-}
-
-#proficiencies .card {
-  padding: 0;
-  margin: 20px;
-  background-color: #dfe2db;
-  border: none;
-}
-
-#proficiencies .card-body,
-.card-footer {
-  text-align: center;
-  background-color: inherit;
 }
 
 span {
@@ -206,7 +178,7 @@ span {
 }
 
 .console {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .navbar-toggler {
@@ -228,17 +200,6 @@ span {
 
 .dates-worked h3 {
   float: right;
-}
-
-#portfolio .card-deck {
-  margin-top: 20px;
-}
-
-#portfolio .card-footer {
-  border: none;
-  text-align: left;
-  padding: 20px;
-  vertical-align: bottom;
 }
 
 #contact li {
@@ -264,26 +225,53 @@ span {
   justify-content: space-between;
 }
 
-
 .card-resume {
   margin-bottom: 40px;
-
-  /*color: black;*/
 }
-
 .card-resume .card-header {
-  background-color: #dfe2db;
+  background-color: #7d83ff;
+  color: white;
 }
-
-.card-resume .card-footer {
-  /*display: flex;
-  align-items: baseline;*/
-}
-
 .card-resume .card-header .split {
   flex-flow: row wrap;
 }
 
+#proficiencies .card {
+  padding: 0;
+  margin: 20px;
+  border: none;
+}
+#proficiencies .card .card-body,
+#proficiencies .card .card-footer {
+  text-align: center;
+  background-color: inherit;
+}
+#proficiencies .card i {
+  font-size: 100px;
+}
+
+#portfolio .card-deck {
+  margin-top: 20px;
+}
+
+#portfolio .card-footer {
+  border: none;
+  text-align: left;
+  padding: 20px;
+  vertical-align: bottom;
+}
+
+.card-portfolio .card-title {
+  color: #7d83ff;
+}
+.card-portfolio .card-body,
+.card-portfolio .card-footer {
+  background-color: #f0f0f0;
+}
+.card-portfolio .badge {
+  background-color: #7d83ff;
+  color: white;
+}
 
 @media (max-width: 768px) {
   .dates-worked h3 {
@@ -310,5 +298,6 @@ span {
     vertical-align: bottom;
   }
 }
-
 /* eof */
+
+/*# sourceMappingURL=style.css.map */
