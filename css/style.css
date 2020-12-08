@@ -30,14 +30,12 @@ img.home-img-size {
 
 body {
   font-size: 18px;
-  background-color: #dfe2db;
-  /*background-color: #30e3ca;*/
 }
 
 #resume,
 #page-top,
 #contact {
-  background-color: #F0F0F0;
+  background-color: #dfe2db;
 }
 
 section {
@@ -112,19 +110,8 @@ h1 {
   color: black;
 }
 
-.modal-header {
-  background-color: #dfe2db;
-}
-
-.modal-body {
-  background-color: white;
-  /* padding: 0;
-    margin: 0; */
-}
-
 .modal-footer {
   justify-content: center;
-  /* background-color: #dfe2db; */
   background-color: white;
 }
 
@@ -140,7 +127,6 @@ h1 {
 #proficiencies .card {
   padding: 0;
   margin: 20px;
-  background-color: #dfe2db;
   border: none;
 }
 
@@ -269,16 +255,23 @@ span {
 }
 
 .card-resume .card-header {
-  background-color: #dfe2db;
-}
-
-.card-resume .card-footer {
-  /*display: flex;
-    align-items: baseline;*/
+  background-color: #7d83ff;
+  color: white;
 }
 
 .card-resume .card-header .split {
   flex-flow: row wrap;
+}
+
+.card-portfolio .card-title {
+  color: #7d83ff;
+}
+.card-portfolio .card-body, .card-portfolio .card-footer {
+  background-color: #f0f0f0;
+}
+.card-portfolio .badge {
+  background-color: #7d83ff;
+  color: white;
 }
 
 @media (max-width: 768px) {
