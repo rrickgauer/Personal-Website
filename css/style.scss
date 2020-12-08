@@ -1,10 +1,6 @@
-
 $color-grey: #dfe2db;
 $color-purple: #7d83ff;
 $color-purple-terminal: #5a5d7a;
-
-
-
 .section-border-top {
     border-bottom-style: solid;
 }
@@ -127,22 +123,6 @@ h1 {
     height: 32px;
 }
 
-#proficiencies i {
-    font-size: 100px;
-}
-
-#proficiencies .card {
-    padding: 0;
-    margin: 20px;
-    border: none;
-}
-
-#proficiencies .card-body,
-.card-footer {
-    text-align: center;
-    background-color: inherit;
-}
-
 span {
     color: inherit;
 }
@@ -248,19 +228,27 @@ span {
 
 .card-resume {
     margin-bottom: 40px;
+    .card-header {
+        background-color: $color-purple;
+        color: white;
+    }
+    .card-header .split {
+        flex-flow: row wrap;
+    }
 }
 
-.card-resume .card-header {
-    background-color: $color-purple;
-    color: white;
-}
-
-.card-resume .card-header .split {
-    flex-flow: row wrap;
-}
-
-.card-proficiency {
-    color: $color-purple;
+#proficiencies .card {
+    padding: 0;
+    margin: 20px;
+    border: none;
+    .card-body,
+    .card-footer {
+        text-align: center;
+        background-color: inherit;
+    }
+    i {
+        font-size: 100px;
+    }
 }
 
 #portfolio .card-deck {
@@ -278,10 +266,10 @@ span {
     .card-title {
         color: $color-purple;
     }
-    .card-body, .card-footer {
+    .card-body,
+    .card-footer {
         background-color: #f0f0f0;
     }
-    
     .badge {
         background-color: $color-purple;
         color: white;

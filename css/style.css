@@ -120,22 +120,6 @@ h1 {
   height: 32px;
 }
 
-#proficiencies i {
-  font-size: 100px;
-}
-
-#proficiencies .card {
-  padding: 0;
-  margin: 20px;
-  border: none;
-}
-
-#proficiencies .card-body,
-.card-footer {
-  text-align: center;
-  background-color: inherit;
-}
-
 span {
   color: inherit;
 }
@@ -242,18 +226,26 @@ span {
 .card-resume {
   margin-bottom: 40px;
 }
-
 .card-resume .card-header {
   background-color: #7d83ff;
   color: white;
 }
-
 .card-resume .card-header .split {
   flex-flow: row wrap;
 }
 
-.card-proficiency {
-  color: #7d83ff;
+#proficiencies .card {
+  padding: 0;
+  margin: 20px;
+  border: none;
+}
+#proficiencies .card .card-body,
+#proficiencies .card .card-footer {
+  text-align: center;
+  background-color: inherit;
+}
+#proficiencies .card i {
+  font-size: 100px;
 }
 
 #portfolio .card-deck {
@@ -270,7 +262,8 @@ span {
 .card-portfolio .card-title {
   color: #7d83ff;
 }
-.card-portfolio .card-body, .card-portfolio .card-footer {
+.card-portfolio .card-body,
+.card-portfolio .card-footer {
   background-color: #f0f0f0;
 }
 .card-portfolio .badge {
