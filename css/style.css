@@ -253,22 +253,20 @@ span {
 #portfolio .card-deck {
   margin-top: 20px;
 }
-
 #portfolio .card-footer {
   border: none;
   text-align: left;
   padding: 20px;
   vertical-align: bottom;
 }
-
-.card-portfolio .card-title {
+#portfolio .card .card-title {
   color: #7d83ff;
 }
-.card-portfolio .card-body,
-.card-portfolio .card-footer {
+#portfolio .card .card-body,
+#portfolio .card .card-footer {
   background-color: #f0f0f0;
 }
-.card-portfolio .badge {
+#portfolio .card .badge {
   background-color: #7d83ff;
   color: white;
 }
