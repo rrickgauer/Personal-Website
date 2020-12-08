@@ -109,19 +109,28 @@ h1 {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
 }
 
-.modal-header h5 {
-    color: black;
+.modal {
+    .modal-header {
+        background-color: $color-purple;
+        color: white;
+
+        button {
+            color: white;
+        }
+    }
+
+    .modal-footer {
+        justify-content: center;
+        background-color: white;
+
+        ion-icon {
+            width: 32px;
+            height: 32px;
+        }
+    }
 }
 
-.modal-footer {
-    justify-content: center;
-    background-color: white;
-}
 
-.modal-footer ion-icon {
-    width: 32px;
-    height: 32px;
-}
 
 span {
     color: inherit;
