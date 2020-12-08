@@ -113,24 +113,19 @@ h1 {
     .modal-header {
         background-color: $color-purple;
         color: white;
-
         button {
             color: white;
         }
     }
-
     .modal-footer {
         justify-content: center;
         background-color: white;
-
         ion-icon {
             width: 32px;
             height: 32px;
         }
     }
 }
-
-
 
 span {
     color: inherit;
@@ -260,19 +255,16 @@ span {
     }
 }
 
-
 #portfolio {
     .card-deck {
         margin-top: 20px;
     }
-
     .card-footer {
         border: none;
         text-align: left;
         padding: 20px;
         vertical-align: bottom;
     }
-
     .card {
         .card-title {
             color: $color-purple;
@@ -286,10 +278,7 @@ span {
             color: white;
         }
     }
-
 }
-
-
 
 @media (max-width: 768px) {
     .dates-worked h3 {
