@@ -119,7 +119,7 @@ h1 {
 .modal-body {
   background-color: white;
   /* padding: 0;
-  margin: 0; */
+    margin: 0; */
 }
 
 .modal-footer {
@@ -274,7 +274,7 @@ span {
 
 .card-resume .card-footer {
   /*display: flex;
-  align-items: baseline;*/
+    align-items: baseline;*/
 }
 
 .card-resume .card-header .split {
