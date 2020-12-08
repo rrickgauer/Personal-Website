@@ -216,17 +216,6 @@ span {
   float: right;
 }
 
-#portfolio .card-deck {
-  margin-top: 20px;
-}
-
-#portfolio .card-footer {
-  border: none;
-  text-align: left;
-  padding: 20px;
-  vertical-align: bottom;
-}
-
 #contact li {
   display: inline-block;
   padding-left: 10px;
@@ -261,6 +250,21 @@ span {
 
 .card-resume .card-header .split {
   flex-flow: row wrap;
+}
+
+.card-proficiency {
+  color: #7d83ff;
+}
+
+#portfolio .card-deck {
+  margin-top: 20px;
+}
+
+#portfolio .card-footer {
+  border: none;
+  text-align: left;
+  padding: 20px;
+  vertical-align: bottom;
 }
 
 .card-portfolio .card-title {
