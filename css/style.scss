@@ -1,0 +1,314 @@
+.section-border-top {
+    border-bottom-style: solid;
+  }
+  
+  img.home-img-size {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .custom-font {
+    font-family: 'ABeeZee', sans-serif;
+  }
+  
+  .nav.navbar-nav.navbar-right li {
+    color: white;
+  }
+  
+  .home-text {
+    font-size: 20px;
+  }
+  
+  #page-top {
+    padding-top: 75px !important;
+    line-height: 1.15;
+  }
+  
+  #page-top p {
+    padding-left: 50px;
+  }
+  
+  body {
+    font-size: 18px;
+    background-color: #dfe2db;
+    /*background-color: #30e3ca;*/
+  }
+  
+  #resume,
+  #page-top,
+  #contact {
+    background-color: #F0F0F0;
+  }
+  
+  section {
+    padding-bottom: 50px !important;
+    padding-top: 30px !important;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700;
+    padding-top: 30px;
+  }
+  
+  #mainNav {
+    color: white !important;
+  }
+  
+  #mainNav a {
+    color: white !important;
+  }
+  
+  #resume {
+    line-height: 1.15;
+  }
+  
+  #resume h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  #resume li {
+    padding: 5px;
+  }
+  
+  
+  #contact {
+    padding-bottom: 100px;
+  }
+  
+  #proficiencies h2 {
+    padding-top: 25px;
+  }
+  
+  #top-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  .selected {
+    background-color: grey;
+  }
+  
+  .nav-item:hover {
+    background-color: grey;
+  }
+  
+  .connect-icons ion-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .card {
+    margin: 10px;
+  }
+  
+  #resume .card,
+  #portfolio .card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  }
+  
+  .modal-header h5 {
+    color: black;
+  }
+  
+  .modal-header {
+    background-color: #dfe2db;
+  }
+  
+  .modal-body {
+    background-color: white;
+    /* padding: 0;
+    margin: 0; */
+  }
+  
+  .modal-footer {
+    justify-content: center;
+    /* background-color: #dfe2db; */
+    background-color: white;
+  }
+  
+  .modal-footer ion-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  #proficiencies i {
+    font-size: 100px;
+  }
+  
+  #proficiencies .card {
+    padding: 0;
+    margin: 20px;
+    background-color: #dfe2db;
+    border: none;
+  }
+  
+  #proficiencies .card-body,
+  .card-footer {
+    text-align: center;
+    background-color: inherit;
+  }
+  
+  span {
+    color: inherit;
+  }
+  
+  .console-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .console-buttons {
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+  }
+  
+  .console-buttons li {
+    display: inline-block;
+  }
+  
+  #console .card-header {
+    padding: 0;
+    background-color: #e4e3e5;
+  }
+  
+  #console .card-body {
+    padding: 10px;
+  }
+  
+  .console-button-red {
+    color: #f96256;
+  }
+  
+  .console-button-yellow {
+    color: #fdbc3d;
+  }
+  
+  .console-button-green {
+    color: #33c948;
+  }
+  
+  .bg-purple {
+    background-color: #5a5d7a;
+  }
+  
+  .console-input {
+    color: white;
+  }
+  
+  .console-output {
+    margin-left: 10px;
+    margin-bottom: 35px;
+    margin-top: 5px;
+    color: #e7d184;
+  }
+  
+  .console {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .navbar-toggler {
+    padding: 0;
+  }
+  
+  .navbar {
+    padding: 0;
+  }
+  
+  .collapse-box {
+    color: white;
+    font-size: 32px;
+  }
+  
+  .navbar-toggler:focus {
+    outline: 0;
+  }
+  
+  .dates-worked h3 {
+    float: right;
+  }
+  
+  #portfolio .card-deck {
+    margin-top: 20px;
+  }
+  
+  #portfolio .card-footer {
+    border: none;
+    text-align: left;
+    padding: 20px;
+    vertical-align: bottom;
+  }
+  
+  #contact li {
+    display: inline-block;
+    padding-left: 10px;
+  }
+  
+  #dictionary-video .modal-body video {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  
+  #bst-video .modal-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .split {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .card-resume {
+    margin-bottom: 40px;
+  }
+  
+  .card-resume .card-header {
+    background-color: #dfe2db;
+  }
+  
+  .card-resume .card-footer {
+    /*display: flex;
+    align-items: baseline;*/
+  }
+  
+  .card-resume .card-header .split {
+    flex-flow: row wrap;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .dates-worked h3 {
+      float: left;
+    }
+  
+    ul {
+      padding-left: 27px;
+    }
+  
+    .sub-list {
+      padding-left: 15px;
+    }
+  
+    #portfolio .card {
+      padding: 20px;
+    }
+  
+    #portfolio .card-footer {
+      border: none;
+      text-align: left;
+      padding: 0;
+      padding-top: 10px;
+      vertical-align: bottom;
+    }
+  }
+  
+  /* eof */
+  
