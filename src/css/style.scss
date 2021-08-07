@@ -1,0 +1,72 @@
+
+$color-primary: #FF2353;
+$color-dark-grey: #57606a;
+
+$custom-font-header: 'Poppins', sans-serif;
+$custom-font-normal: 'PT Serif', serif;
+
+.color-primary {
+    color: $color-primary;
+}
+
+.color-dark-grey {
+    color: $color-dark-grey;
+}
+
+.custom-font-normal {
+    font-family: $custom-font-normal;
+}
+
+.custom-font-header {
+    font-family: $custom-font-header;
+}
+
+body {
+    font-family: $custom-font-normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $custom-font-header;
+}
+
+
+section {
+    margin-bottom: 40px;
+}
+
+#contact-items {
+
+    .contact-item {
+        display: flex;
+        margin-right: 20px;
+        margin-bottom: 15px;
+
+    }
+
+    .contact-item-label {
+        margin-right: 5px;
+        color: $color-primary;
+    }
+}
+
+
+@media only screen and (min-device-width: 668px) {
+    #contact-items {
+        display: flex;
+    }   
+}
+
+
+.btn-social i { font-size: larger; }
+
+@media only screen and (min-device-width: 668px) {
+    #name-header {
+        text-align: center;
+    }
+}
+
+#name-header {
+    font-size: 60px;
+}
+
+
