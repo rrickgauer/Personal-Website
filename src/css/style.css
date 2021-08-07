@@ -1,0 +1,57 @@
+.color-primary {
+  color: #FF2353;
+}
+
+.color-dark-grey {
+  color: #57606a;
+}
+
+.custom-font-normal {
+  font-family: "PT Serif", serif;
+}
+
+.custom-font-header {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "PT Serif", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+#contact-items .contact-item {
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+#contact-items .contact-item-label {
+  margin-right: 5px;
+  color: #FF2353;
+}
+
+@media only screen and (min-device-width: 668px) {
+  #contact-items {
+    display: flex;
+  }
+}
+.btn-social i {
+  font-size: larger;
+}
+
+@media only screen and (min-device-width: 668px) {
+  #name-header {
+    text-align: center;
+  }
+}
+#name-header {
+  font-size: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */
