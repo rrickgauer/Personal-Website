@@ -22,6 +22,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
+#btn-download {
+  background-color: #FF2353;
+  color: white;
+}
+
+body {
+  background-color: #fafafa;
+}
+
 section {
   margin-bottom: 40px;
 }
